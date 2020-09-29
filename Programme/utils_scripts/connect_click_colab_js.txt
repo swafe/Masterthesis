@@ -1,0 +1,32 @@
+var intervalId = null;
+ var varCounter = 0;
+ function ClickConnect()
+ 	{
+      if(varCounter <= 18) 
+      {
+        console.log("Counter: " + varCounter);
+           varCounter++;
+           /* your code goes here */
+        console.log("Working");
+        var buttons = document.getElementsByTagName("colab-toolbar-button");
+	for (var button of buttons) {
+  		if (button.getAttribute("icon") == "icons:refresh") {
+			button.click();
+    			console.log("Refresh button clicked");
+  		}
+	}
+      } else 
+      	{
+	   console.log("clear Intervall");
+           clearInterval(intervalId);
+      	}
+ };
+ setInterval(ClickConnect, 600000);
+
+#1000 = 1 sec also in setInterval 600 000 (10 min) und varCounter auf 18 für 3 Stunden
+
+
+
+# document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click()
+
+# clearInterval(null);  stopt setIntervall()
