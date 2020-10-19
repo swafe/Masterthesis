@@ -2,7 +2,7 @@
 
 This Youtube video [Get started with Google Colaboratory (Coding TensorFlow)](https://www.youtube.com/watch?v=inN8seMm7UI) shows a general introduction to Google Colab (3 min).
 
-* copy the following link:  ``` Mask_rcnn_small_tf1_soiltyp ```
+* copy the following link:  ``` https://github.com/swafe/Masterthesis/blob/master/Mask_rcnn_small_tf1_soiltyp/train_test_Mask_rcnn_tf1_soiltype.ipynb ```
 * click [here](https://colab.research.google.com/notebooks/intro.ipynb) to open Google Colab
 * in Google Colab go to File, open notebook
 * in the opened Window go to the GitHub Tab and paste the copied Link to have access to the repository
