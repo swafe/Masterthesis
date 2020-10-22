@@ -146,7 +146,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             score = scores[i] if scores is not None else None
             label = class_names[class_id]
             # caption = "{} {:.3f}".format(label, score) if score else label
-            caption = class_id
+            caption = score # class_id
         else:
             caption = captions[i]
         ax.text(x1, y1 + image.shape[1]/10, caption,
